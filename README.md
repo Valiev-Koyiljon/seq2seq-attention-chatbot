@@ -1,7 +1,3 @@
-# seq2seq-attention-chatbot
-
-
-
 # Neural Conversational Chatbot with Attention
 
 An implementation of a sequence-to-sequence neural chatbot with attention mechanisms using PyTorch.
@@ -38,19 +34,23 @@ An implementation of a sequence-to-sequence neural chatbot with attention mechan
 
 ## Project Structure
 ```
-chatbot/
+seq2seq-attention-chatbot/
+├── data/
+│   └── movie-corpus/
 ├── models/
-│   ├── encoder.py      # Bidirectional GRU encoder
-│   ├── decoder.py      # Attention-based decoder
-│   ├── attention.py    # Luong attention mechanism
-│   └── search.py       # Greedy search decoder
-├── utils/
-│   ├── preprocess.py   # Data preprocessing
-│   └── vocabulary.py   # Vocabulary handling
-├── train.py
-├── evaluate.py
+│   ├── __init__.py
+│   ├── attention.py
+│   ├── decoder.py 
+│   ├── encoder.py
+│   └── search.py
+├── save/
+├── __init__.py
 ├── config.py
-└── main.py
+├── evaluate.py
+├── experiment.ipynb
+├── train.py
+├── utils.py
+└── vocabulary.py
 ```
 
 ## Model Architecture
