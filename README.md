@@ -2,11 +2,13 @@
 
 An implementation of a sequence-to-sequence neural chatbot with attention mechanisms using PyTorch.
 
-'''
+
+```
 Human: Hi there!
 Bot: Hello! Welcome to our chat.
-
-'''
+Human: How are you?
+Bot: I am doing well. 
+```
 
 ## Core Research Papers
 
