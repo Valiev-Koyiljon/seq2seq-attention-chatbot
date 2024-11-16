@@ -8,6 +8,7 @@ from utils import normalizeString
 from config import PAD_token, SOS_token, EOS_token, MAX_LENGTH
 
 class Voc:
+    """ Vocabulary class for mapping words to indexes """
     def __init__(self, name):
         self.name = name
         self.trimmed = False
