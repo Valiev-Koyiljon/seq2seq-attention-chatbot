@@ -3,6 +3,7 @@ import torch.nn as nn
 from config import SOS_token
 
 class GreedySearchDecoder(nn.Module):
+    """ Greedy search decoder that returns the most likely output sequence """
     def __init__(self, encoder, decoder, device):
         super(GreedySearchDecoder, self).__init__()
         self.encoder = encoder
